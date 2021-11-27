@@ -15,16 +15,16 @@ a = list(map(int, input().split()))
 # import itertools
 # # from functools import reduce
 # # from operator import mul
-# 
+#
 # combs = list(itertools.combinations(a, 5))
 # counter = 0
 # for comb in combs:
 #     # residual = reduce(mul, comb) % p
-#     residual = comb[0] % p * comb[1] % p * comb[2] % p * comb[3] %p * comb[4] % p 
-# 
+#     residual = comb[0] % p * comb[1] % p * comb[2] % p * comb[3] %p * comb[4] % p
+#
 #     if residual == q:
 #         counter += 1
-# 
+#
 # print(counter)
 
 # counter = 0
@@ -36,7 +36,7 @@ a = list(map(int, input().split()))
 #                     residual = a[i] % p * a[j] % p * a[k] % p * a[l] % p * a[m] % p
 #                     if residual == q:
 #                         counter += 1
-# 
+#
 # print(counter)
 
 # counter = 0
@@ -48,7 +48,7 @@ a = list(map(int, input().split()))
 #                     residual = a[i] % p * a[j] % p * a[k] % p * a[l] % p * a[m] % p
 #                     if residual == q:
 #                         counter += 1
-# 
+#
 # print(counter)
 
 # counter = 0
@@ -60,7 +60,7 @@ a = list(map(int, input().split()))
 #                     residual = ((((a[i] % p) * a[j] % p) * a[k] % p) * a[l] % p) * a[m] % p
 #                     if residual == q:
 #                         counter += 1
-# 
+#
 # print(counter)
 
 # counter = 0
@@ -72,7 +72,7 @@ a = list(map(int, input().split()))
 #                     residual = ((((a[i] * a[j] % p) * a[k] % p) * a[l] % p) * a[m]) % p
 #                     if residual == q:
 #                         counter += 1
-# 
+#
 # print(counter)
 
 from itertools import combinations
