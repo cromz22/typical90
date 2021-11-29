@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     for candidate in product(["(", ")"], repeat=N):
         candidate_str = "".join(candidate)
-        if (is_valid(candidate_str)):
+        if is_valid(candidate_str):
             print(candidate_str)
 
 
@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
 # LEFT = "("
 # RIGHT = ")"
-# 
+#
 # valid_strings = {}
 # if N % 2 == 0:
 #     print()
