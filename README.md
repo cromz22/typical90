@@ -1,6 +1,7 @@
 # Typical 90 problems from AtCoder
 
 - [Typical 90 problems](https://atcoder.jp/contests/typical90)
+- [Colored spreadsheet](https://docs.google.com/spreadsheets/d/184F1b2e9XDWzGqOVHjDdtPaxVt-wi64JWWgySxfIb0g/edit#gid=0)
 
 
 ## Useful Websites
