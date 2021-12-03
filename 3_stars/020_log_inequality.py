@@ -8,7 +8,7 @@ a, b, c = map(int, input().split())
 # else:
 #     print("No")
 
-if a < c**b:
+if a < c ** b:
     print("Yes")
 else:
     print("No")
