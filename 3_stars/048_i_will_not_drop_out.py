@@ -16,7 +16,7 @@ a, b = [list(i) for i in zip(*ab)]
 
 a = np.array(a)
 b = np.array(b)
-con = np.concatenate([a-b, b])
+con = np.concatenate([a - b, b])
 con.sort()
 ans = con[-k:].sum()
 print(ans)
